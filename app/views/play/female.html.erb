@@ -1,0 +1,7 @@
+<h2><%= @people.first.first_name %> <%= @people.first.last_name %><h2>
+<br>
+<h2><%= @people.second.first_name %> <%= @people.second.last_name %><h2>
+<br>
+<h2><%= @people.third.first_name %> <%= @people.third.last_name %><h2>
+<br>
+<%= button_to('Again!', play_female_path, :method => :get, :class => 'btn btn-primary btn-lg') %>
