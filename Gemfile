@@ -48,7 +48,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 #twitter bootstrap for faster development
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '~> 3.2.0' 
 
 #for compatibility with heroku
 gem 'rails_12factor', group: :production
